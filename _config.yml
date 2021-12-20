@@ -1,107 +1,271 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+# Config
+# ========================================================================================
 
-# Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+# IMPORTANT: Set the URL of your site.
+# Set to https://<username>.github.io when hosting on GitHub Pages
+# (unless you are using a custom domain).
+url:                   https://domain.tld
 
-# URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+# IMPORTANT: Set The "base URL" of your site.
+#
+# When hosting your site in a subdirectory of a server, set to /<name of directory>
+# (with leading /, but without the < >)
+# Use the empty string '' otherwise.
+#
+# When using GitHub Pages, set to '' when hosting a user- or organization page,
+# i.e. when the name of the repository looks like <username>.github.io.
+# Otherwise, set to /<name of repository> (with leading /, but without the < >).
+baseurl:               ''
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+# Language of your content in 2-letter code, e.g.: en, de.
+# You may also provide a location, e.g.: en-us, de_AT.
+lang:                  en
 
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
-  exclude: ''
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+# The title of your blog. Used in the sidebar and the browser tab.
+title:                 Hydejack
 
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
+# A short description (~150 chars) of the page used for the meta description tag.
+# Can use markdown, but no more than one paragraph (enforced by `>`)
+description:           >
+  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
+  Combines the best of static sites and modern web apps.
+  Open `_config.yml` to edit this text.
 
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+# A shorter description for the sidebar.
+tagline:               >
+  A Jekyll theme with JavaScript powers.
+  Open `_config.yml` to edit this text.
 
-# Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+# A list of keywords for your blog
+keywords:              []
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+# Used by jekyll-seo-tag...
+logo:                  /assets/icons/icon.png
 
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 10
-pagination_dir: page
+# This should be the same author as first entry in `_data/authors.yml`.
+# Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
+author:
+  name:                <firstname> <lastname>
+  email:               <mail@domain.tld>
+  # Used by `jekyll-seo-tag`:
+  # twitter:             <username>
 
-# Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
-include:
+# This text will appear in a `<small>` tag in the footer of every page.
+copyright:             © 2017. All rights reserved.
+
+# Add links to the footer.
+# Typically you'll want to link to your impress, cookies or privacy policy, etc.
+# legal:
+#   - title:             Impress
+#     href:              /impress/
+#   - title:             Cookies Policy
+#     href:              /cookies-policy/
+
+# Format of the permalinks
+permalink:             pretty
+
+# Pagination configuration (used by the `blog` layout)
+paginate:              5
+paginate_path:         /page-:num/
+
+
+# Customizaton
+# ========================================================================================
+
+# Sidebar image and theme color of the site.
+accent_image:          /assets/img/sidebar-bg.jpg
+accent_color:          '#4fb1ba'
+
+# The string encoding which fonts to fetch from Google Fonts.
+# See: <https://qwtel.com/hydejack/docs/configuration/>
+google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+
+# The text font. Expects a string that is a valid CSS font-family value.
+font:                  Noto Sans, Helvetica, Arial, sans-serif
+
+# The font used for headings. Expects a string that is a valid CSS font-family value.
+font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+
+# 3rd Party Integrations
+# ----------------------------------------------------------------------------------------
+
+# Set your Google Analytics id to receive `pageview` events.
+# To remove Google Anaylics from your page, remove the line below.
+# google_analytics:      UA-XXXXXXXX-X
+
+# Setting a disqus shortname will enable the comment section on
+# pages with `comments: true` in the front matter.
+# disqus:                <disqus_shortname>
+
+# Setting a tinyletter username will enable the newsletter subscription box.
+# tinyletter:            <tinyletter_username>
+
+# Hydejack Settings
+# ----------------------------------------------------------------------------------------
+# These settings are specific to Hydejack.
+
+hydejack:
+  # Configure the order of complementary content on blog posts
+  post_addons:         [about, newsletter, related]
+
+  # Configure the order of complementary content on project pages
+  project_addons:      [about, newsletter, other]
+
+  # If you do not use Google Fonts, set to `true`.
+  no_google_fonts:     false
+
+  # Set to `true` if you don't want to show an icon indicating external links
+  no_mark_external:    false
+
+  # Set to `true` if third party plugins fail to work with dynamically loaded pages
+  no_push_state:       false
+
+  # Set to `true` if you want to disable the drawer
+  no_drawer:           false
+
+  # Set to `true` if you do not want parts of the css inlined in <head/>
+  # This *may* be benefitial when serving the site over HTTP/2.
+  no_inline_css:       false
+
+  # Code blocks and tables "break" the layout by spanning the full available width.
+  # Set this to true if you want them to be the same width as other content.
+  no_break_layout:     false
+
+  # Set to `true` if you do not want to expose your resume and projects
+  # in machine-readable formats.
+  no_structured_data:  false
+
+  # You can set this to `true` if you don't want to set the `theme-color` meta tag,
+  # This only affects the meta tag, not the color specified in the app manifest.
+  no_theme_color:      false
+
+  # Set to `true` when building with the `--lsi` option
+  use_lsi:             false
+
+  # When using Google Analytics, set to `true` to display a cookie notice banner.
+  # When enabled, no user-related data will be stored until the user gives consent.
+  cookies_banner:      false
+
+
+# Collections
+# ========================================================================================
+
+collections:
+  featured_categories:
+    permalink:         /category/:name/
+    output:            true
+
+  featured_tags:
+    permalink:         /tag/:name/
+    output:            true
+
+  projects:
+    permalink:         /projects/:path/
+    output:            true
+
+
+# File inclusion/exclusion
+# ========================================================================================
+
 exclude:
-ignore:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+include:
+  - LICENSE.md
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: landscape
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repository: git@github.com:AndongYang/Andongyang.github.io.git
-  branch: master
+# Plugins and Plugin Configuration
+# ========================================================================================
+
+plugins:
+  # - jekyll-avatar
+  # - jekyll-default-layout
+  - jekyll-feed
+  # - jekyll-gist
+  # - jekyll-optional-front-matter
+  - jekyll-paginate
+  # - jekyll-readme-index
+  # - jekyll-redirect-from
+  - jekyll-relative-links
+  # - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # - jekyll-titles-from-headings
+
+# Theme
+# ---------------------------------------------------------------------------------------
+
+# theme: jekyll-theme-hydejack
+# remote_theme: qwtel/hydejack@gem
+
+# SEO Tag
+# ---------------------------------------------------------------------------------------
+
+# Where you proof that you own this site (used by jekyll-seo-tag)
+# google_site_verification: <verification-id>
+# -- or --
+# webmaster_verifications:
+#   google:              <verification-id>
+#   bing:                <verification-id>
+#   alexa:               <verification-id>
+#   yandex:              <verification-id>
+
+# Used for Twitter cards
+# twitter:
+#   username:            <shortname>
+
+# Used for Facebook open graph
+# facebook:
+#   app_id:              <id>
+#   publisher:           <id>
+#   admins:              <id>
+
+# Used on index and about sites
+# social:
+#   name:                <firstname> <lastname>
+#   links:
+#     - https://twitter.com/<username>
+#     - https://github.com/<username>
+
+
+# Other Plugins
+# ---------------------------------------------------------------------------------------
+
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
+kramdown:
+  footnote_backlink:   '&#x21a9;&#xfe0e;'
+  math_engine:         mathjax
+  math_engine_opts:
+    preview:           true
+    preview_as_code:   true
+
+compress_html:
+  comments:            ["<!-- ", " -->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
+
+sass:
+  style:               compressed
+
+# If you are upgrading form v5 (or earlier), uncomment the lines below,
+# so that the location of the feed XML stays the same.
+# feed:
+#   path:                atom.xml
