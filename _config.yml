@@ -25,11 +25,10 @@ title:                 Andong Yang
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  The personal sites uses Jekyll theme Hydejack.
 
 # A shorter description for the sidebar.
-tagline:               Welcome! This is Andong Yang. 
+tagline:               Welcome! This is Andong Yang. This site is under construction $(:$
 
 # A list of keywords for your blog
 keywords:              []
@@ -49,8 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
+  - title:             Blog
+    url:               /blog/
   - title:             Documentation
     url:               /docs/
   - title:             About
