@@ -52,6 +52,8 @@ menu:
     url:               /blog/
   - title:             Documentation
     url:               /docs/
+  - title:             博客-中文
+    url:               /blogchinese/
   - title:             About
     url:               /about/
   #- title: "@qwtel" #add links to external sites, like zhihu
