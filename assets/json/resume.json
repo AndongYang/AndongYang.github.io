@@ -6,15 +6,7 @@
     "email": "albert@einstein.de",
     "phone": "(912) 123-4567",
     "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "In 2019, I received my bachelor's degree and was recommended to a straight-to Ph.D. My work started with building and modifying multiple mobile robots and simulator platforms (Including two mobile robots and one SUV) since I was the first student in the lab to start research in this area. After completing the hardware platform setup, I conducted research on the popular frameworks used in aerial robots, legged robots, and mobile robots. Considering the goal of developing a mobile robot capable of autonomous navigation in wild environments, I have identified the subsequent research direction. The initial focus will be on implementing a perception-to-control software stack within the traditional hierarchical framework, incorporating learning-based approaches to address the challenges that traditional methods face in the wild. Subsequently, research will be conducted on end-to-end methods based on this framework. In order to facilitate testing, the hierarchical framework was implemented in the order of control to perception. Specific works include:
-
-    1. A motion control method for rugged outdoor environments.
-    2. A Speed planning method that can handle the geometric and semantic features of the terrain.
-    3. A motion planning method that can utilize long-range information.
-    4. A set of OctoMap generation processes and terrain semantic segmentation methods.
-    5. A meethod for automatic simulator terrain generation and texture generation.
-    
-    Based on this software stack, I further explored an end-to-end trajectory planning method that can be trained offline. Other work includes an active SLAM method based on hierarchical reinforcement learning for fast exploration, as well as A city-scale neural radiance fields (NeRF).",
+    "summary": "In 2019, I received my bachelor's degree and was recommended to a straight-to Ph.D. My work started with building and modifying multiple mobile robots and simulator platforms (Including two mobile robots and one SUV) since I was the first student in the lab to start research in this area. After completing the hardware platform setup, I conducted research on the popular frameworks used in aerial robots, legged robots, and mobile robots. Considering the goal of developing a mobile robot capable of autonomous navigation in wild environments, I have identified the subsequent research direction. The initial focus will be on implementing a perception-to-control software stack within the traditional hierarchical framework, incorporating learning-based approaches to address the challenges that traditional methods face in the wild. Subsequently, research will be conducted on end-to-end methods based on this framework. In order to facilitate testing, the hierarchical framework was implemented in the order of control to perception.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
