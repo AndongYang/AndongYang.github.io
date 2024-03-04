@@ -208,7 +208,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Publications](#publications)
     - [Collections](#collections)
     - [Layouts](#layouts)
-      - [The iconic style of Distill](#the-iconic-style-of-distill)
+      - [The ic style of Distill](#the-iconic-style-of-distill)
       - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
     - [Other features](#other-features)

@@ -1,25 +1,27 @@
 ---
 layout: post
-title: New patent CN108510205A
-date: 2018-09-07 16:11:00-0400
+title: New patent CN115453880A
+date: 2022-09-21 19:11:00-0400
 inline: false
-related_posts: false
 ---
 
-A hypergraph-based author skill assessment method.
+
+Training method of generative model for state prediction based on antagonistic neural network
 
 ***
 
-This patent belongs to the field of scholar skill assessment technology and relates to a scholar skill assessment method based on hypergraphs. This method enables a fine-grained evaluation of a scholar's proficiency level in a specific skill within a particular field, while also capturing the temporal evolution of the scholar's skills. The method takes into consideration factors such as the number and quality of papers, variations across different fields, and changes over time. The use of hypergraph concepts allows for the integration of scholars, fields, and skills, providing a fine-grained assessment approach. When calculating the distances between scholars, fields, and skills, traditional evaluation parameters such as paper citations and H-index are expanded upon to ensure reliability. The normalization technique improves computational efficiency and reduces errors. Lastly, the inclusion of the temporal factor enables the analysis of how scholars' fields and skills evolve over time, providing additional insights for research purposes.
+The invention provides a training method of a generative model for state prediction based on an antagonistic neural network, wherein the antagonistic neural network comprises the generative model and an arbiter, the generative model and the arbiter both comprise multilayer fully-connected networks, and the method comprises the following steps: s1, sampling a plurality of control action sequences of predicted time domain length from all possible control actions under the constraint condition of a target system, sending each control action sequence into the real environment of the target system for execution to obtain a target state sequence of the target system corresponding to each control action sequence, and sending each control action sequence into a generation model to obtain a target system future state prediction sequence corresponding to each control action sequence; s2, forming a sample by using the current state of the target system, each control action sequence and the target state sequence of the corresponding target system after each control action sequence is executed, and generating a training set; and S3, training the generated countermeasure network for multiple times by adopting the training set until convergence.
+
+[Google patents](https://patents.google.com/patent/CN115453880A/en)
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/patent20181.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/patent20182.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/patent2-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
+
 
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
