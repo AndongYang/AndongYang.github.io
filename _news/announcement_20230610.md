@@ -15,11 +15,11 @@ The invention provides a training method of a generative model for state predict
 [Google patents](https://patents.google.com/patent/CN115453880A/en)
 
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/patent2-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
+</div> -->
 
 
 

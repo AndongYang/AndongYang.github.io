@@ -12,14 +12,14 @@ A hypergraph-based author skill assessment method.
 
 This patent belongs to the field of scholar skill assessment technology and relates to a scholar skill assessment method based on hypergraphs. This method enables a fine-grained evaluation of a scholar's proficiency level in a specific skill within a particular field, while also capturing the temporal evolution of the scholar's skills. The method takes into consideration factors such as the number and quality of papers, variations across different fields, and changes over time. The use of hypergraph concepts allows for the integration of scholars, fields, and skills, providing a fine-grained assessment approach. When calculating the distances between scholars, fields, and skills, traditional evaluation parameters such as paper citations and H-index are expanded upon to ensure reliability. The normalization technique improves computational efficiency and reduces errors. Lastly, the inclusion of the temporal factor enables the analysis of how scholars' fields and skills evolve over time, providing additional insights for research purposes.
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/patent20181.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/patent20182.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
+</div> -->
 
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
