@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Institute of Computing Technology, Chinese Academy of Sciences.
 
@@ -9,9 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Robotics</p>
-    <p>Motion Planning</p>
-    <p>Motion Control</p>
+    <p>[Resume](/assets/pdf/)</p>
     <p>Andong_Yang@outlook.com</p>
 
 news: true # includes a list of news items
@@ -23,6 +21,7 @@ social: false # includes social icons at the bottom of the page
 Welcome! This is Andong Yang, and I am a PhD student studying robot motion planning and motion control.
 
 I hope to make progress in the field of motion planning and motion control for mobile robot in wild environments. If you have any questions, please feel free to send me an email: andong_yang[at]outlook.com. Good luck!
+
 
 <!-- In 2019, I received my bachelor's degree and was recommended to a straight-to Ph.D. My work started with building and modifying multiple mobile robots and simulator platforms (Including two mobile robots and one SUV) since I was the first student in the lab to start research in this area. After completing the hardware platform setup, I conducted research on the popular frameworks used in aerial robots, legged robots, and mobile robots. Considering the goal of developing a mobile robot capable of autonomous navigation in wild environments, I have identified the subsequent research direction. The initial focus will be on implementing a perception-to-control software stack within the traditional hierarchical framework, incorporating learning-based approaches to address the challenges that traditional methods face in the wild. Subsequently, research will be conducted on end-to-end methods based on this framework. In order to facilitate testing, the hierarchical framework was implemented in the order of control to perception. Specific works include:
 

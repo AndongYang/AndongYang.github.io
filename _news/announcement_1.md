@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-v0.1 released! :smile:
+Homepage V0.1 released! :smile:
