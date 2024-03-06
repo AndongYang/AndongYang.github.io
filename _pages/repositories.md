@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: "Talk is cheap. Show me the code." - Linus Torvalds
+description: 
 nav: true
 nav_order: 4
 ---

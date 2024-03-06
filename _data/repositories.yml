@@ -2,6 +2,8 @@ github_users:
   - AndongYang
 
 github_repos:
+  - AndongYang/Imitation-learning
+  - AndongYang/Re-implement
   - alshedivat/al-folio
   - jekyll/jekyll
   - FortAwesome/Font-Awesome
