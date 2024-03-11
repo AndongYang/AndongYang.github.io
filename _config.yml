@@ -6,13 +6,13 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Andong
 middle_name:
 last_name: Yang
-email: Andong_Yang@outlook.com
+email: Andong_Yang@outlook.com yangandong19b@ict.ac.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Andong Yang's personal homepage.
 footer_text: >
 keywords: Andong Yang, Robotics, Motion planning, Motion control, Reinforcement learning, MPC  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://AndongYang.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
