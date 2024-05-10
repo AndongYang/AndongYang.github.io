@@ -29,8 +29,6 @@ pagination:
   </div>
   {% endif %}
 
-![](/assets/img/working.gif)
-
 {% if site.display_tags or site.display_categories %}
 
   <div class="tag-category-list">
