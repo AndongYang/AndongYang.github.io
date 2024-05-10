@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Andong_Yang@outlook.com</p>
+    <p>AndongYang24@gmail.com</p>
     <p>yangandong19b@ict.ac.cn</p>
 
 news: true # includes a list of news items
