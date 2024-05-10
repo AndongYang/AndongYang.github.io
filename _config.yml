@@ -121,7 +121,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Andong Yang # blog_name will be displayed in your blog page
-blog_description: Stay happy, stay healthy
+blog_description: Stay happy, stay healthy ![](/assets/img/working.gif)
 permalink: /blog/:year/:title/
 
 # Pagination
