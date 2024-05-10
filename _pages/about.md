@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 Welcome! This is Andong Yang, and I am a PhD student studying robot motion planning and motion control.
 
-I hope to make progress in the field of motion planning and motion control for mobile robot in wild environments. If you have any questions, please feel free to send me an email: andong_yang[at]outlook.com. Good luck!
+I hope to make progress in the field of motion planning and motion control for mobile robot in wild environments. If you have any questions, please feel free to send me an email. Good luck!
 
 [Resume](/assets/pdf/AndongYang.pdf)
 
