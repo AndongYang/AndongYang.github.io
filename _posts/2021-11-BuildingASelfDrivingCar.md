@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Building a self-driving car
-date: 2021-11
-description: ..
+date: 2021-11-05
+description: None
 thumbnail: assets/img/f51.png
 ---
 
@@ -20,6 +20,7 @@ Building a self-driving car that drives in the plateau environment. Participate 
 <div class="caption">
     Modified vehicle.
 </div>
+
 <!-- 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
