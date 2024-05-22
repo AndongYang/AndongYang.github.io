@@ -12,10 +12,11 @@ Building a self-driving car that drives in the plateau environment. Participate 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f51.jpeg" title="vehicle" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/f51.jpeg" title="vehicle" class="img-fluid rounded z-depth-1" zoomable=true %} 
+        <!-- % include figure.html path="assets/img/f51.jpeg" title="vehicle" class="img-fluid rounded z-depth-1" % -->
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f52.png" title="vehicle" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/f52.png" title="vehicle" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
