@@ -3,13 +3,14 @@ layout: post
 title: Building a self-driving car
 date: 2021-11-05
 comments: true
-description: None
-tags: formatting videos
+description: NoneSensor installation and path planning software design.
 thumbnail: assets/img/f51.jpeg
 ---
 
-Building a self-driving car that drives in the plateau environment. Participate in vehicle modification and solve the problem of no HD map, irregular path, and difficulty in manually correcting the path faced by global path planning for vehicle in plateau environment. Specific details include drawing the road network based on satellite images; Based on the generated road network and set target points, RRT* is used to generate the corresponding global path, and a visual interface based on QT is written to check and modify the planning results.
-
+Building a self-driving car that drives in the plateau environment. Participate in vehicle modification and solve the problem of no HD map, irregular path, and difficulty in manually correcting the path faced by global path planning for vehicle in plateau environment. Specific details include:
+* Drawing the road network based on satellite images; 
+* Global path planning based on RRT* and A*.
+* A visual interface based on QT is written to set target and check or modify the planning results.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
