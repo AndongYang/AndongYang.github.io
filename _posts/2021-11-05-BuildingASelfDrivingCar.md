@@ -3,7 +3,7 @@ layout: post
 title: Building a self-driving car
 date: 2021-11-05
 comments: true
-description: NoneSensor installation and path planning software design.
+description: Sensor installation and path planning software design.
 thumbnail: assets/img/f51.jpeg
 ---
 
