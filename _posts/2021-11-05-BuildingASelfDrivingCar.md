@@ -4,6 +4,7 @@ title: Building a self-driving car
 date: 2021-11-05
 comments: true
 description: None
+tags: formatting videos
 thumbnail: assets/img/f51.png
 ---
 
