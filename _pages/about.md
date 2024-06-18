@@ -26,6 +26,31 @@ I hope to make progress in the field of motion planning and motion control for m
 
 ![](/assets/img/working.gif)
 
+### News
+
+Sep 21, 2022	New patent CN115453880A
+Sep 07, 2018	New patent CN108510205A
+
+
+### Honors and Awards
+
+2020-2022 Academic First Class Scholarship in ICT, CAS
+2020-2022 Merit Student in ICT, CAS
+
+### Educations
+2019.06 - (now), Ph.D, Institute of Computing Technology, Chinese Academic of Science, Beijing
+2015.09 - 2019.06, Undergraduate, , Dalian
+
+
+### Professional Services
+Reviewers:
+
+TA:
+
+
+### Internships
+
+
 <!-- In 2019, I received my bachelor's degree and was recommended to a straight-to Ph.D. My work started with building and modifying multiple mobile robots and simulator platforms (Including two mobile robots and one SUV) since I was the first student in the lab to start research in this area. After completing the hardware platform setup, I conducted research on the popular frameworks used in aerial robots, legged robots, and mobile robots. Considering the goal of developing a mobile robot capable of autonomous navigation in wild environments, I have identified the subsequent research direction. The initial focus will be on implementing a perception-to-control software stack within the traditional hierarchical framework, incorporating learning-based approaches to address the challenges that traditional methods face in the wild. Subsequently, research will be conducted on end-to-end methods based on this framework. In order to facilitate testing, the hierarchical framework was implemented in the order of control to perception. Specific works include:
 
 1. A motion control method for rugged outdoor environments.
