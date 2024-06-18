@@ -57,8 +57,8 @@ I hope to make progress in the field of motion planning and motion control for m
 <br/>
 
 ### **Professional Services**
-* Reviewer for the IEEE International Conference on Robotics and Automation (ICRA)-23
-* Reviewer for the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)-24
+* Reviewer for the IEEE International Conference on Robotics and Automation (ICRA)-24
+* Reviewer for the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)-23
 * TA: Computer Architecture
 * Member of the Career Development Association of ICT, CAS
 * Member of the Student Union of the University of Chinese Academy of Sciences
@@ -67,6 +67,9 @@ I hope to make progress in the field of motion planning and motion control for m
 
 <!-- ### **Internships** -->
 
+<!-- ### **Collaboration**
+Hao Zhao: Tsinghua University
+Yongchao Chen: MIT -->
 
 
 <!-- In 2019, I received my bachelor's degree and was recommended to a straight-to Ph.D. My work started with building and modifying multiple mobile robots and simulator platforms (Including two mobile robots and one SUV) since I was the first student in the lab to start research in this area. After completing the hardware platform setup, I conducted research on the popular frameworks used in aerial robots, legged robots, and mobile robots. Considering the goal of developing a mobile robot capable of autonomous navigation in wild environments, I have identified the subsequent research direction. The initial focus will be on implementing a perception-to-control software stack within the traditional hierarchical framework, incorporating learning-based approaches to address the challenges that traditional methods face in the wild. Subsequently, research will be conducted on end-to-end methods based on this framework. In order to facilitate testing, the hierarchical framework was implemented in the order of control to perception. Specific works include:
