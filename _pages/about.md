@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>AndongYang24@gmail.com</p>
     <p>yangandong19b@ict.ac.cn</p>
+    <p>Beijing, China</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -26,29 +27,52 @@ I hope to make progress in the field of motion planning and motion control for m
 
 ![](/assets/img/working.gif)
 
-### News
-
-Sep 21, 2022	New patent CN115453880A
-Sep 07, 2018	New patent CN108510205A
 
 
-### Honors and Awards
+### **News**
+2024.4 I'm working on multiple robots
+2024.3: Two papers under review
+2024.2: One papers accepted to ICRA
+2024.1: One papers accepted to RA-L
+2023.11: New patent 202311229497.X
+2023.5: One papers accepted to IROS
+2022.11	New patent CN115453880A
+2022.6 One papers accepted to IROS
+2018.11	New patent CN108510205A
 
+
+
+### **Projects**
+
+
+
+### **Honors and Awards**
+<font color=#4A4E52>2022 World Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving</font> 
 2020-2022 Academic First Class Scholarship in ICT, CAS
 2020-2022 Merit Student in ICT, CAS
 
-### Educations
+
+
+### **Educations**
 2019.06 - (now), Ph.D, Institute of Computing Technology, Chinese Academic of Science, Beijing
 2015.09 - 2019.06, Undergraduate, , Dalian
 
 
-### Professional Services
+
+### **Professional Services**
 Reviewers:
+* IEEE International Conference on Robotics and Automation (ICRA)-23
+* IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)-24
 
 TA:
+* Computer Architecture: Prepare material, Design projects.
 
+Other:
+* Member of the Career Development Association of ICT, CAS
+* Member of the Student Union of the University of Chinese Academy of Sciences
 
-### Internships
+### **Internships**
+
 
 
 <!-- In 2019, I received my bachelor's degree and was recommended to a straight-to Ph.D. My work started with building and modifying multiple mobile robots and simulator platforms (Including two mobile robots and one SUV) since I was the first student in the lab to start research in this area. After completing the hardware platform setup, I conducted research on the popular frameworks used in aerial robots, legged robots, and mobile robots. Considering the goal of developing a mobile robot capable of autonomous navigation in wild environments, I have identified the subsequent research direction. The initial focus will be on implementing a perception-to-control software stack within the traditional hierarchical framework, incorporating learning-based approaches to address the challenges that traditional methods face in the wild. Subsequently, research will be conducted on end-to-end methods based on this framework. In order to facilitate testing, the hierarchical framework was implemented in the order of control to perception. Specific works include:
