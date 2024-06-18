@@ -31,8 +31,8 @@ I hope to make progress in the field of motion planning and motion control for m
 <br/>
 
 ### **News**
-* <font face="Consolas">2024.4:</font> I'm working on multiple robots
-* <font face="Merriweather Sans">2024.3:</font> Two papers under review
+* <font face="Consolas">2024.4: </font>I'm working on developing a multiple robots system
+* <font face="Alegreya">2024.3: </font>Two papers under review
 * 2024.2: One papers accepted to ICRA
 * 2024.1: One papers accepted to RA-L
 * 2023.11: New patent 202311229497.X
@@ -53,17 +53,17 @@ I hope to make progress in the field of motion planning and motion control for m
 DimGray
 
 ### **Honors and Awards**
-2022 <font color=#4A4E52>World Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving</font> 
-2020-2022 Academic First Class Scholarship in ICT, CAS
-2020-2022 Merit Student in ICT, CAS
+* 2022 <font color=#4A4E52>World</font> Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving
+* 2020-2022 Academic First Class Scholarship in ICT, CAS
+* 2020-2022 Merit Student in ICT, CAS
 
 <br/>
 <br/>
 
 
 ### **Educations**
-2019.06 - (now), Ph.D, Institute of Computing Technology, Chinese Academic of Science, Beijing
-2015.09 - 2019.06, Undergraduate, , Dalian
+* 2019.06 - (now), Ph.D, Institute of Computing Technology, Chinese Academic of Science, Beijing
+* 2015.09 - 2019.06, Undergraduate, , Dalian
 
 <br/>
 <br/>
