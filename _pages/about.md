@@ -27,36 +27,46 @@ I hope to make progress in the field of motion planning and motion control for m
 
 ![](/assets/img/working.gif)
 
-
+<br/>
+<br/>
 
 ### **News**
-2024.4 I'm working on multiple robots
-2024.3: Two papers under review
-2024.2: One papers accepted to ICRA
-2024.1: One papers accepted to RA-L
-2023.11: New patent 202311229497.X
-2023.5: One papers accepted to IROS
-2022.11	New patent CN115453880A
-2022.6 One papers accepted to IROS
-2018.11	New patent CN108510205A
+* <font face="Consolas">2024.4:</font> I'm working on multiple robots
+* <font face="Merriweather Sans">2024.3:</font> Two papers under review
+* 2024.2: One papers accepted to ICRA
+* 2024.1: One papers accepted to RA-L
+* 2023.11: New patent 202311229497.X
+* 2023.5: One papers accepted to IROS
+* 2022.11	New patent CN115453880A
+* 2022.6 One papers accepted to IROS
+* 2018.11	New patent CN108510205A
 
-
+<br/>
+<br/>
 
 ### **Projects**
 
 
+<br/>
+<br/>
+
+DimGray
 
 ### **Honors and Awards**
-<font color=#4A4E52>2022 World Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving</font> 
+2022 <font color=#4A4E52>World Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving</font> 
 2020-2022 Academic First Class Scholarship in ICT, CAS
 2020-2022 Merit Student in ICT, CAS
 
+<br/>
+<br/>
 
 
 ### **Educations**
 2019.06 - (now), Ph.D, Institute of Computing Technology, Chinese Academic of Science, Beijing
 2015.09 - 2019.06, Undergraduate, , Dalian
 
+<br/>
+<br/>
 
 
 ### **Professional Services**
@@ -70,6 +80,10 @@ TA:
 Other:
 * Member of the Career Development Association of ICT, CAS
 * Member of the Student Union of the University of Chinese Academy of Sciences
+
+<br/>
+<br/>
+
 
 ### **Internships**
 
