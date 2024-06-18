@@ -31,8 +31,8 @@ I hope to make progress in the field of motion planning and motion control for m
 <br/>
 
 ### **News**
-* <font face="Consolas">2024.4: </font>I'm working on developing a multiple robots system
-* <font face="Alegreya">2024.3: </font>Two papers under review
+* 2024.4: I'm working on developing a multiple robots system
+* 2024.3: Two papers under review
 * 2024.2: One papers accepted to ICRA
 * 2024.1: One papers accepted to RA-L
 * 2023.11: New patent 202311229497.X
@@ -42,50 +42,33 @@ I hope to make progress in the field of motion planning and motion control for m
 * 2018.11	New patent CN108510205A
 
 <br/>
-<br/>
-
-### **Projects**
-
-
-<br/>
-<br/>
-
-DimGray
 
 ### **Honors and Awards**
-* 2022 <font color=#4A4E52>World</font> Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving
+* 2022 <font color=DimGray>World</font> Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving
 * 2020-2022 Academic First Class Scholarship in ICT, CAS
 * 2020-2022 Merit Student in ICT, CAS
 
 <br/>
-<br/>
-
 
 ### **Educations**
 * 2019.06 - (now), Ph.D, Institute of Computing Technology, Chinese Academic of Science, Beijing
 * 2015.09 - 2019.06, Undergraduate, , Dalian
 
 <br/>
-<br/>
-
 
 ### **Professional Services**
 Reviewers:
 * IEEE International Conference on Robotics and Automation (ICRA)-23
 * IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)-24
-
 TA:
 * Computer Architecture: Prepare material, Design projects.
-
 Other:
 * Member of the Career Development Association of ICT, CAS
 * Member of the Student Union of the University of Chinese Academy of Sciences
 
 <br/>
-<br/>
 
-
-### **Internships**
+<!-- ### **Internships** -->
 
 
 
