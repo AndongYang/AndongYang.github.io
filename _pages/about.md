@@ -44,25 +44,22 @@ I hope to make progress in the field of motion planning and motion control for m
 <br/>
 
 ### **Honors and Awards**
-* 2022 <font color=DimGray>World</font> Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving
+* 2022 World Intelligent Driving Challenge: Second prize in the obstacle avoidance and highway driving
 * 2020-2022 Academic First Class Scholarship in ICT, CAS
-* 2020-2022 Merit Student in ICT, CAS
+* 2022-2023 Merit Student in ICT, CAS
 
 <br/>
 
 ### **Educations**
 * 2019.06 - (now), Ph.D, Institute of Computing Technology, Chinese Academic of Science, Beijing
-* 2015.09 - 2019.06, Undergraduate, , Dalian
+* 2015.09 - 2019.06, Undergraduate, Dalian University of Technology, Dalian
 
 <br/>
 
 ### **Professional Services**
-Reviewers:
-* IEEE International Conference on Robotics and Automation (ICRA)-23
-* IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)-24
-TA:
-* Computer Architecture: Prepare material, Design projects.
-Other:
+* Reviewer for the IEEE International Conference on Robotics and Automation (ICRA)-23
+* Reviewer for the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)-24
+* TA: Computer Architecture
 * Member of the Career Development Association of ICT, CAS
 * Member of the Student Union of the University of Chinese Academy of Sciences
 
