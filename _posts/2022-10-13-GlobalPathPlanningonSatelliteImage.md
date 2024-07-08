@@ -13,7 +13,17 @@ On the basis of this final road network, traditional planning method (RRT* in OM
 
 Finally, the imitation learning model is applied for planning. This imitation learning approach yields faster planning results at a large scale (20km) compared to using traditional planning method alone.
 
-![Planning software](/assets/img/post2-1.jpg "Planning software" width="500")
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/post2-1.jpg" title="vehicle" class="img-fluid rounded z-depth-1" zoomable=true %} 
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/post2-2.jpg" title="vehicle" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    RRT* planner visulization and Planning software GUI.
+</div>
 
 [1] He, Songtao, et al. "Sat2graph: Road graph extraction through graph-tensor encoding." Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XXIV 16. Springer International Publishing, 2020.
 
