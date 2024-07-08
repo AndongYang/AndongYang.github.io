@@ -4,7 +4,7 @@ title: Global path planning based on satellite image
 date: 2022-10-13
 comments: true
 description: Traditional RRT* and GAIl.
-thumbnail: assets/img/f51.jpeg
+thumbnail: assets/img/post2-0.jpg
 ---
 
 Based on satellite imagery, the Sat2Graph [1] method is used to automatically generate an initial road network. This initial road network is then manually corrected and refined to obtain the final road network result.
