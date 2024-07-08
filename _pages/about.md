@@ -31,8 +31,9 @@ I hope to make progress in the field of motion planning and motion control for m
 <br/>
 
 ### **News**
+* 2024.6: One papers accepted to IROS
 * 2024.4: I'm working on developing a multiple robots system
-* 2024.3: Two papers under review
+* 2024.3: Three papers under review
 * 2024.2: One papers accepted to ICRA
 * 2024.1: One papers accepted to RA-L
 * 2023.11: New patent 202311229497.X
