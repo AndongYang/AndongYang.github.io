@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Global path planning based on satellite image
+title: Global path planning based on satellite images
 date: 2022-10-13
 comments: true
 description: Traditional RRT* and GAIl.
