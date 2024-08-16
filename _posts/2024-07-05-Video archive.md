@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Video of published paper
+title: Videos of published paper
 date: 2024-07-05
 comments: true
 description: This is an archive of videos of some published papers. The video archive will be continuously updated.
-thumbnail: assets/img/f51.jpeg
+thumbnail: assets/img/postVedio.gif
 ---
 
 
