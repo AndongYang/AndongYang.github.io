@@ -25,6 +25,10 @@ I hope to make progress in the field of motion planning and motion control for r
 
 [Resume](/assets/pdf/AndongYang.pdf) 
 
+[LinkedIn](https://www.linkedin.com/in/andongyang/)
+
+[Google Scholar](https://scholar.google.com/citations?user=t1Nzqx4AAAAJ&hl=en&authuser=1)
+
 ![](/assets/img/working.gif)
 
 <br/>
