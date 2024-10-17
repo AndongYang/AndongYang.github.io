@@ -34,8 +34,6 @@ I hope to make progress in the field of motion planning and motion control for r
 <br/>
 <br/>
 
-<font color = red >Looking for a postdoc ！</font>
-
 ### **News**
 * 2024.6: One papers accepted to IROS
 * 2024.4: I'm working on developing a multiple robots system
