@@ -35,6 +35,8 @@ I hope to make progress in the field of motion planning and motion control for r
 <br/>
 
 ### **News**
+* 2024.11 One papers accepted to WACV
+* 2024.9: New patent 2024112900601
 * 2024.6: One papers accepted to IROS
 * 2024.4: I'm working on developing a multiple robots system
 * 2024.3: Three papers under review
@@ -44,7 +46,6 @@ I hope to make progress in the field of motion planning and motion control for r
 * 2023.5: One papers accepted to IROS
 * 2022.11	New patent CN115453880A
 * 2022.6 One papers accepted to IROS
-* 2018.11	New patent CN108510205A
 
 <br/>
 
