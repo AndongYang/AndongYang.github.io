@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Tools for Searching Research papers
+title: Tools for Finding Research Papers
 date: 2024-11-20
 comments: true
-description: There are so many papers here.
+description: Managing the Overwhelming Number of Research Papers.
 thumbnail: assets/img/post3-1.jpg
 ---
 
