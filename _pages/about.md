@@ -21,7 +21,7 @@ social: false # includes social icons at the bottom of the page
 
 Welcome! This is Andong Yang, and I am a PhD student studying robot motion planning and motion control. My advisors are Yu Hu and Wei Li.
 
-I hope to make progress in the field of motion planning and motion control for robot in wild environments. If you would like to collaborate with me or have any questions, feel free to reach out to me anytime via email. Good luck!
+I hope to make progress in the field of motion planning and motion control for single and multiple robots in wild environments. If you would like to collaborate with me or have any questions, feel free to reach out to me anytime via email. Good luck!
 
 [LinkedIn](https://www.linkedin.com/in/andongyang/)
 
