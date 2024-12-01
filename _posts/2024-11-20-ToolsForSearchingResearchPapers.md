@@ -4,7 +4,7 @@ title: Tools for Finding Research Papers
 date: 2024-11-20
 giscus_comments: true
 description: Managing the Overwhelming Number of Research Papers.
-thumbnail: assets/img/post3-1.jpg
+thumbnail: assets/img/post3-2.jpg
 ---
 
 <!-- Find a saying, every paper is someone's hard work, I respect there work, but we have limited time, so it's a pitty we can only read part of the work. -->
@@ -39,4 +39,3 @@ A Note on Staying Relaxed!
 It’s easy to feel overwhelmed by the sheer number of papers and the fast pace of academic and industrial research. I remind myself that it’s okay to miss some papers—important ones will likely resurface in the future.
 
 Good luck with your research!
-
