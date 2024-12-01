@@ -4,7 +4,7 @@ title: Tools for Finding Research Papers
 date: 2024-11-20
 giscus_comments: true
 description: Managing the Overwhelming Number of Research Papers.
-thumbnail: assets/img/post3-2.jpg
+thumbnail: assets/img/post3-3.jpg
 ---
 
 <!-- Find a saying, every paper is someone's hard work, I respect there work, but we have limited time, so it's a pitty we can only read part of the work. -->
