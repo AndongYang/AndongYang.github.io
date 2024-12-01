@@ -32,9 +32,7 @@ Of course, there are still a lot of papers mey have someting we may interested. 
 **Most Popular and Basic Research Area:** 
 For popular research areas and foundational disciplines, my approach is less structured. I often browse sources like Nature News and Science Daily. Tools like [OpenAlex](https://openalex.org) are also useful for exploring new methods or topics.
 
-I don’t depend heavily on recommendation algorithms, as I prefer maintaining control over what I read. For organizing papers, I use the file system of the operating system. It’s easy to back up and helps me stay organized without relying on complex software.
-
-A Note on Staying Relaxed!
+I don’t depend heavily on recommendation algorithms, as I prefer maintaining control over what I read. For organizing papers, I use the file system of the operating system. It’s easy to back up.
 
 It’s easy to feel overwhelmed by the sheer number of papers and the fast pace of academic and industrial research. I remind myself that it’s okay to miss some papers—important ones will likely resurface in the future.
 
