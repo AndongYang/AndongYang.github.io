@@ -27,7 +27,11 @@ Given the sheer volume of papers, it’s impossible to read all of them—or eve
 1. I start by reviewing the Best Paper and Best Paper Candidate for each conference. These papers often represent cutting-edge research and highlight the conference's focus.
 2. I use tools like [Paper Copilot](https://papercopilot.com) to find highly-rated accepted papers. I skim the titles of around first 150 papers and read those that are directly relevant or interesting to me. There are also some useful visualization tools, such as visualization of the development of research directions.
 
-<img src="assets/img/post3-2.jpg" alt="drawing" width="200"/>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/post3-2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 <center>3D map of the development of research directions.</center>
 
 Of course, there are still a lot of papers mey have someting we may interested. For these parts, I seek the help from social media and academic communities. For example, I follow IEEE Robotics and Automation Society groups and prominent researchers on platforms like X (formerly Twitter) and LinkedIn.
