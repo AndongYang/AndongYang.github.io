@@ -2,7 +2,7 @@
 layout: post
 title: Tools for Finding Research Papers
 date: 2024-11-20
-comments: true
+giscus_comments: true
 description: Managing the Overwhelming Number of Research Papers.
 thumbnail: assets/img/post3-1.jpg
 ---
