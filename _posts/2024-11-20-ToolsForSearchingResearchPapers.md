@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tools for Searching Research papers
-date: 2024-011-20
+date: 2024-11-20
 comments: true
 description: There are so many papers here.
 thumbnail: assets/img/post3-1.jpg
