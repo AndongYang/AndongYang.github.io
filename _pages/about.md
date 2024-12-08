@@ -29,8 +29,6 @@ I hope to make progress in the field of motion planning and motion control for s
 
 ![](/assets/img/working.gif)
 
-<font color='red'> Looking for a postdoc </font>
-
 <br/>
 <br/>
 
