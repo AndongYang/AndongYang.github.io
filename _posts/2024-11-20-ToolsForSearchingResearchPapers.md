@@ -7,7 +7,7 @@ description: Managing the Overwhelming Number of Research Papers.
 thumbnail: assets/img/post3-3.jpg
 ---
 
-<!-- Find a saying, every paper is someone's hard work, I respect there work, but we have limited time, so it's a pitty we can only read part of the work. -->
+<!-- every paper is someone's hard work, I respect there work, but we have limited time, so it's a pitty we can only read part of the work. -->
 
 In every research field, there are countless papers published each year. In my area, robotics, I categorize papers into four groups based on their research direction:
 1. My Current Research Area – Topics directly related to my ongoing work in robotics.; 
