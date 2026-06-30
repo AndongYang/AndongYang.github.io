@@ -296,6 +296,272 @@ h3 a:hover {
 }
 
 /**************************************************/
+/* Projects — Gantt-style horizontal timeline. */
+
+.project-gantt-wrap {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.gantt-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 1px solid #e2e6ea;
+  border-radius: 8px;
+  background: #fff;
+  scrollbar-width: thin;
+  scrollbar-color: #c5cdd4 transparent;
+}
+
+.gantt-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.gantt-scroll::-webkit-scrollbar-thumb {
+  background: #c5cdd4;
+  border-radius: 3px;
+}
+
+.gantt-canvas {
+  position: relative;
+  min-width: 72em;
+  width: 100%;
+  padding: 1.25em 1.5em 1em;
+}
+
+.gantt-axis {
+  position: relative;
+  height: 2.6em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #e2e6ea;
+}
+
+.gantt-tick {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-left: 1px solid #e8ecef;
+}
+
+.gantt-tick-month {
+  height: 0.35em;
+  border-left-color: #eef1f3;
+}
+
+.gantt-tick-quarter {
+  height: 0.85em;
+  border-left-color: #d5dce3;
+}
+
+.gantt-tick-quarter span {
+  position: absolute;
+  bottom: 0.95em;
+  left: 0.2em;
+  font-size: 0.62em;
+  color: #a0a8b0;
+  white-space: nowrap;
+}
+
+.gantt-tick-year {
+  height: 2.4em;
+  border-left: 2px solid #3EB489;
+  opacity: 0.45;
+}
+
+.gantt-tick-year span {
+  position: absolute;
+  top: 0;
+  left: 0.35em;
+  font-size: 0.78em;
+  font-weight: 500;
+  color: #3EB489;
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.gantt-bars {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.gantt-body {
+  position: relative;
+}
+
+.gantt-connectors {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 3;
+}
+
+.gantt-connectors .gantt-connector {
+  fill: none;
+  stroke: #d5dce3;
+  stroke-width: 1.5;
+}
+
+.gantt-connectors .gantt-connector.ongoing {
+  stroke: #3EB489;
+  stroke-opacity: 0.6;
+  stroke-dasharray: 5 4;
+}
+
+.gantt-bridge {
+  position: relative;
+  z-index: 4;
+  padding-top: 1.25em;
+}
+
+.gantt-bars .gantt-project {
+  position: relative;
+  margin-bottom: 0.35em;
+}
+
+.gantt-bars .gantt-project:last-child {
+  margin-bottom: 0;
+}
+
+.gantt-details {
+  position: relative;
+  min-height: 9em;
+  overflow: visible;
+}
+
+.gantt-detail {
+  position: absolute;
+  top: 0;
+  width: 10.5em;
+  margin-left: -5.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 4;
+  box-sizing: border-box;
+}
+
+.gantt-card {
+  text-align: center;
+  padding: 0.35em 0.25em 0.5em;
+}
+
+.gantt-bar-track {
+  position: relative;
+  height: 2em;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.gantt-bar {
+  position: absolute;
+  top: 0.35em;
+  height: 1.3em;
+  min-width: 3em;
+  border-radius: 4px;
+  background: #a0a8b0;
+  display: flex;
+  align-items: center;
+  padding: 0 0.45em;
+  box-sizing: border-box;
+}
+
+.gantt-bar.ongoing {
+  background-color: #3EB489;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0) 5px,
+    rgba(255, 255, 255, 0.22) 5px,
+    rgba(255, 255, 255, 0.22) 10px
+  );
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding-right: 1.4em;
+}
+
+.gantt-bar.ongoing::after {
+  content: '→';
+  position: absolute;
+  right: 0.25em;
+  top: 50%;
+  transform: translateY(-52%);
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+
+.gantt-bar-label {
+  font-size: 0.72em;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gantt-card h3 {
+  font-size: 0.86em;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 0.2em;
+  color: #150c21;
+}
+
+.gantt-card p {
+  font-size: 0.78em;
+  line-height: 1.4;
+  color: #5a5560;
+}
+
+.gantt-card .links {
+  font-size: 0.8em;
+  color: #a0a8b0;
+  margin-top: 0.2em;
+}
+
+.gantt-detail.ongoing .gantt-card {
+  border-left: 3px solid #3EB489;
+  padding-left: 0.45em;
+}
+
+.gantt-detail.ongoing .gantt-card h3::after {
+  content: 'ongoing';
+  display: inline-block;
+  font-size: 0.68em;
+  font-weight: 500;
+  color: #3EB489;
+  background: #e8f7f1;
+  padding: 0.05em 0.4em;
+  border-radius: 3px;
+  margin-left: 0.35em;
+  vertical-align: middle;
+}
+
+.gantt-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 500;
+  color: #3EB489;
+  background: #e8f7f1;
+  padding: 0.05em 0.4em;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.gantt-scroll-hint {
+  text-align: center;
+  font-size: 0.78em;
+  color: #a0a8b0;
+  margin-top: 0.45em;
+}
+
+/**************************************************/
 /* Subtle footer at the bottom of the page. */
 
 #footer {
