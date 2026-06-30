@@ -470,12 +470,24 @@
         }
       });
 
+      function getActiveFilter() {
+        return localStorage.getItem('filterValue') || '.highlight';
+      }
+
+      function scheduleProjectGanttLayout() {
+        if (getActiveFilter() !== '.talk') return;
+        requestAnimationFrame(function() {
+          layoutProjectGantt();
+        });
+      }
+
+      $grid.on('layoutComplete', scheduleProjectGanttLayout);
+
       // Bind filter button click.
       $('#filters').on( 'click', 'button', function() {
         var filterValue = $( this ).attr('data-filter');
         localStorage.setItem('filterValue', filterValue);
         $grid.isotope({ filter: filterValue });
-        layoutProjectGantt();
       });
 
       // Change is-checked class on buttons.
@@ -502,7 +514,6 @@
             currButton.classList.remove('is-checked');
           }
         }
-        layoutProjectGantt();
       }
 
       function toggle_bio() {
@@ -541,6 +552,9 @@
       function layoutProjectGantt() {
         var canvas = document.querySelector('.gantt-canvas');
         if (!canvas) return;
+
+        var wrap = canvas.closest('.project-gantt-wrap');
+        if (!wrap || wrap.offsetWidth === 0) return;
 
         var rangeStart = parseGanttMonth(canvas.dataset.rangeStart);
         var rangeEnd = parseGanttMonth(canvas.dataset.rangeEnd);
@@ -600,7 +614,7 @@
         if (!body || !detailsSection || !svg) return;
 
         var bodyWidth = body.offsetWidth;
-        if (bodyWidth === 0) bodyWidth = canvas.offsetWidth;
+        if (bodyWidth === 0) return;
 
         details.forEach(function(detail, index) {
           var bar = bars[index];
@@ -648,9 +662,7 @@
         });
       }
 
-      layoutProjectGantt();
-      window.addEventListener('resize', layoutProjectGantt);
-      requestAnimationFrame(layoutProjectGantt);
+      window.addEventListener('resize', scheduleProjectGanttLayout);
 
     </script>
   </body>
